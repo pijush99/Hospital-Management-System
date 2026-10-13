@@ -1,4 +1,4 @@
-# 🦷 Hospital Management System
+#  🏥 Hospital Management System
 
 A full-stack web application for managing dental clinic appointments. Patients can book appointments, doctors can view and treat them, and admins can manage doctors, patients and appointment assignments.
 
