@@ -40,7 +40,7 @@ A full-stack web application for managing dental clinic appointments. Patients c
 | Frontend   | React, React Router, Axios/Fetch, CSS        |
 | Backend    | Java, Spring Boot, Spring Data JPA           |
 | Security   | Spring Security, JWT (`JwtUtil`, `JwtFilter`)|
-| Database   | *(e.g. MySQL — update to match your config)* |
+| Database   | MySQL                                        |
 | API Docs   | Swagger (`SwaggerConfig`)                    |
 | Testing    | JUnit (backend), Jest (frontend)             |
 
@@ -123,11 +123,6 @@ src/
 ├── index.js
 ├── index.css
 └── reportWebVitals.js
-```
-
-> Folder names above are a suggested layout. Adjust them to match your actual repository.
-
----
 
 ## 🚀 Getting Started
 
@@ -149,7 +144,7 @@ cd <your-repo-folder>
 
 1. Create a database, for example:
    ```sql
-   CREATE DATABASE dental_management;
+   CREATE DATABASE hospital_management;
    ```
 2. Configure `src/main/resources/application.properties`:
    ```properties
